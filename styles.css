@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 8px;
+    margin: 8px;
+    display: grid;
+    align-content: stretch;
+    align-items: end;
+    justify-items: start;
+}
+
+h2, h1{
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    display: block;
+    padding: 8px;
+    width: 98.5%;
+    resize: none;
+}
+
+button {
+    padding: 8px;
+    background-color:rgb(95, 196, 0);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.container{
+border: 2px solid;
+border-color: rgb(95, 196, 0);
+}
+
+#message {
+    font-weight: bold;
+    color: red;
+    padding: 8px;
+    margin: 10px;
+    width: 97%;
+    background-color: rgb(95, 196, 0);
+    display: none;
+}
+
